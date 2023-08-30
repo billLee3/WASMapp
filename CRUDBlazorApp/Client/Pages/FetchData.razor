@@ -1,0 +1,63 @@
+﻿@page "/fetchdata"
+@using CRUDBlazorApp.Shared
+@inject HttpClient Http
+
+<PageTitle>Full Project Data Report</PageTitle>
+
+<h1>Full Project Data Report</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (projects == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Status</th>
+                <th>AddressName</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Assigned To</th>
+                <th>Create Date</th>
+                <th>Created By</th>
+                <th>Last Update</th>
+                <th>Last Update By</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var project in projects)
+            {
+                <tr>
+                    <td>@project.Name</td>
+                    <td>@project.Type</td>
+                    <td>@project.Status</td>
+                    <td>@project.AddressName</td>
+                    <td>@project.City</td>
+                    <td>@project.State</td>
+                    <td>@project.AssignedTo</td>
+                    <td>@project.CreateDate</td>
+                    <td>@project.CreatedBy</td>
+                    <td>@project.LastUpdate</td>
+                    <td>@project.LastUpdatedBy</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    public List<Project> projects { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        var result = await Http.GetFromJsonAsync<List<Project>>("api/project/");
+        projects = result;
+    }
+}

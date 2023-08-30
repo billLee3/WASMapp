@@ -1,0 +1,84 @@
+﻿@page "/project"
+@page "/project/{id:int}"
+@inject IProjectService ProjectService
+
+@if (Id == null)
+{
+    <PageTitle>Create a new project</PageTitle>
+    <h3>Create a new project</h3>
+}
+else
+{
+    <PageTitle>Edit @project</PageTitle>
+    <h3>Edit @project</h3>
+}
+
+<EditForm Model="project" OnSubmit="HandleSubmit">
+    <div>
+        <label for="name">Name</label>
+        <InputText id="name" @bind-Value="project.Name" class="form-control"></InputText>
+    </div>
+    <div>
+        <label for="type">Type</label>
+        <InputText id="type" @bind-Value="project.Type" class="form-control"></InputText>
+    </div>
+    <div>
+        <label for="status">Status</label>
+        <InputText id="status" @bind-Value="project.Status" class="form-control"></InputText>
+    </div>
+    <div>
+        <label for="address">Address Name</label>
+        <InputText id="address" @bind-Value="project.AddressName" class="form-control"></InputText>
+    </div>
+    <div>
+        <label for="city">City</label>
+        <InputText id="city" @bind-Value="project.City" class="form-control"></InputText>
+    </div>
+    <div>
+        <label for="state">State</label>
+        <InputText id="state" @bind-Value="project.State" class="form-control"></InputText>
+    </div>
+    <button type="submit" class="btn btn-primary">@btnMsg</button>
+    <button type="button" class="btn btn-danger" @onclick="DeleteProject">Delete</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    private string btnMsg = string.Empty;
+    Project project = new Project();
+
+    protected override async Task OnInitializedAsync()
+    {
+        btnMsg = Id == null ? "Save New Form" : "Update Form";
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id == null)
+        {
+
+        }
+        else
+        {
+            project = await ProjectService.GetSingleProject((int)Id);
+        }
+    }
+
+    async Task HandleSubmit()
+    {
+        if(Id == null)
+        {
+            await ProjectService.CreateProject(project);
+        }
+        else
+        {
+            await ProjectService.UpdateProject(project);
+        }
+    }
+
+    async Task DeleteProject()
+    {
+        await ProjectService.DeleteProject(project.Id);
+    }
+}

@@ -1,0 +1,42 @@
+﻿@page "/forms"
+@inject IFormService FormService
+@inject NavigationManager NavigationManager
+<PageTitle>Forms</PageTitle>
+
+<h3>Forms</h3>
+@foreach (var form in FormService.Forms)
+{
+    <div class="my-2">
+        <div class="card" style="width: 35rem;">
+            <div class="card-body">
+                <h5 class="card-title">Form ID: @form.Id</h5>
+                <h6 class="card-subtitle">Project ID: @form.ProjectID</h6>
+                <p class="card-text">
+                    <!-- Date and Time of Inspection:  <br> -->
+                    Point of Contact: @form.POCName - @form.POCPhone <br>
+                    Physical Setting: @form.PhysicalSetting <br>
+                    Zoning: @form.Zoning
+                </p>
+                <button class="btn btn-outline-primary" @onclick="(() => ShowForm(form.Id))"><i class="oi oi-pencil"></i></button>
+                <button class="btn btn-outline-danger">Delete</button>
+            </div>
+        </div>
+    </div>
+}
+<button class="btn btn-primary" @onclick="CreateForm">Add Form</button>
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await FormService.GetForms();
+    }
+
+    void ShowForm(int id)
+    {
+        NavigationManager.NavigateTo($"form/{id}");
+    }
+
+    void CreateForm()
+    {
+        NavigationManager.NavigateTo("/form");
+    }
+}

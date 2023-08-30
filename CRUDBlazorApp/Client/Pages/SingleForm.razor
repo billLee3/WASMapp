@@ -1,0 +1,164 @@
+﻿@page "/form"
+@page "/form/{id:int}"
+@inject IFormService FormService
+
+@if (Id == null)
+{
+    <PageTitle>Create a new form</PageTitle>
+    <h3>Create a new form</h3>
+}
+else
+{
+    <PageTitle>Edit Form</PageTitle>
+    <h3>Edit Form</h3>
+}
+
+<EditForm Model="form" OnSubmit="HandleSubmit">
+    <!-- <div class="my-1">
+         <label for="date">Survey Date and Time</label>
+         <input id="date" type="datetime-local" @bind-value="form.DateTimeOfInspection" class="form-control"/>
+         </div>-->
+    <div class="my-1">
+        <label for="pocName">Point of Contact Name</label>
+        <InputText id="pocName" @bind-Value="form.POCName" class="form-control"></InputText>
+    </div>
+    <div class="my-1">
+        <label for="pocRelation">Point of Contact Relation to Property</label>
+        <InputText id="pocRelation" @bind-Value="form.POCRelationToProp" class="form-control"></InputText>
+    </div>
+    <div class="my-1">
+        <label for="pocPhone">Point of Contact Phone Number</label>
+        <InputText id="pocPhone" @bind-Value="form.POCPhone" class="form-control"></InputText>
+    </div>
+    <div class="my-1">
+        <label>Physical Setting</label>
+        <InputSelect @bind-Value="form.PhysicalSetting" class="form-control">
+            @foreach(var item in settingOptions)
+            {
+                <option value="@item">@item</option>
+            }
+        </InputSelect>
+    </div>
+    <div class="my-1">
+        <label for="weather">Weather</label>
+        <InputText id="weather" @bind-Value="form.Weather" class="form-control"></InputText>
+    </div>
+    <div class="my-1">
+        <label>Zoning</label>
+        <InputSelect @bind-Value="form.Zoning" class="form-control">
+            @foreach (var item in zoningOptions)
+            {
+                <option value="@item">@item</option>
+            }
+        </InputSelect>
+    </div>
+    <div class="my-1">
+        <label for="sqft">Size (sqft)</label>
+        <InputNumber id="sqft" @bind-Value="form.SizeSqFt" class="form-control"></InputNumber>
+    </div>
+    <div class="my-1">
+        <label>Natural Gas</label>
+        <InputSelect @bind-Value="form.NaturalGas" class="form-control">
+            @foreach (var item in boolList)
+            {
+                <option value="@item">@item</option>
+            }
+        </InputSelect>
+    </div>
+    <div class="my-1">
+        <label>Propane</label>
+        <InputSelect @bind-Value="form.Propane" class="form-control">
+            @foreach (var item in boolList)
+            {
+                <option value="@item">@item</option>
+            }
+        </InputSelect>
+    </div>
+    <div class="my-1">
+        <label>Fuel Oil</label>
+        <InputSelect @bind-Value="form.FuelOil" class="form-control">
+            @foreach (var item in boolList)
+            {
+                <option value="@item">@item</option>
+            }
+        </InputSelect>
+    </div>
+    <div class="my-1">
+        <label>Electricity</label>
+        <InputSelect @bind-Value="form.Electricity" class="form-control">
+            @foreach (var item in boolList)
+            {
+                <option value="@item">@item</option>
+            }
+        </InputSelect>
+    </div>
+    <div class="my-1">
+        <label>Associated Project</label>
+        <InputSelect @bind-Value="form.ProjectID" class="form-control">
+            @foreach(var project in FormService.Projects)
+            {
+                <option value="@project.Id">@project.Name</option>
+            }
+        </InputSelect>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">@btnText</button>
+    <button type="button" class="btn btn-primary" @onclick="DeleteForm">Delete Form</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    private string btnText = string.Empty;
+    private List<string> settingOptions = new List<string>()
+    {
+        "urban", "suburban"
+    };
+    private List<string> zoningOptions = new List<string>(){
+        "residential", "commercial", "industrial", "agricultural"
+    };
+    private List<string> boolList = new List<string>()
+    {
+        "yes", "no"
+    };
+
+
+    Form form = new Form();
+
+    protected override async Task OnInitializedAsync()
+    {
+        btnText = Id == null ? "Save New Form" : "Update Form";
+        await FormService.GetProjects();
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id == null)
+        {
+            
+            //Check here
+            //form.project = FormService.Projects[0];
+            //form.ProjectID = form.project.Id;
+        }
+        else
+        {
+            form = await FormService.GetSingleForm((int)Id);
+        }
+    }
+    async Task HandleSubmit()
+    {
+        if(Id == null)
+        {
+            await FormService.CreateForm(form);
+        }
+        else
+        {
+            await FormService.UpdateForm(form);
+        }
+    }
+
+    async Task DeleteForm()
+    {
+        await FormService.DeleteForm(form.Id);
+    }
+}
