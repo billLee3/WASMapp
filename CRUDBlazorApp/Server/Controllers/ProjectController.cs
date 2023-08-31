@@ -10,13 +10,12 @@ namespace CRUDBlazorApp.Server.Controllers
     public class ProjectController : ControllerBase
     {
         private readonly DataContext _context;
-        
+        private readonly IProjectServerService _projectServerService;
 
-        public ProjectController(DataContext context)
+        public ProjectController(DataContext context, IProjectServerService projectServerService)
         {
             _context = context;
-           
-            
+            _projectServerService = projectServerService;
         }
 
 
@@ -91,9 +90,20 @@ namespace CRUDBlazorApp.Server.Controllers
             return await _context.Projects.ToListAsync();
         }
 
-        
+        [HttpGet("search/{searchTerm}")]
+        public async Task<ActionResult<ServiceResponse<List<Project>>>> SearchProjects(string searchTerm)
+        {
+            var result = await _projectServerService.SearchProjects(searchTerm);
+            return Ok(result);
+        }
 
-        
-        
+        [HttpGet("searchsuggestions/{searchTerm}")]
+        public async Task<ActionResult<ServiceResponse<List<Project>>>> GetSearchSuggestions(string searchTerm)
+        {
+            var result = await _projectServerService.GetProjectSearchSuggestions(searchTerm);
+            return Ok(result);
+        }
+
+
     }
 }

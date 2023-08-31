@@ -1,6 +1,7 @@
 ﻿@page "/projects"
 @inject IProjectService ProjectService
 @inject NavigationManager NavigationManager
+@implements IDisposable
 
 <PageTitle>Projects</PageTitle>
 
@@ -25,6 +26,17 @@
     {
         await ProjectService.GetProjects();
 
+    }
+
+    //Added OnInit and Dispose
+    protected override void OnInitialized()
+    {
+        ProjectService.ProjectsChanged += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        ProjectService.ProjectsChanged -= StateHasChanged;
     }
 
     void ShowProject(int id)

@@ -2,7 +2,7 @@
 @inject IProjectService ProjectService
 
 <div class="input-group">
-    <input @bind-value="searchEntry"
+    <input @bind-value="searchTerm"
            @bind-value:event="oninput"
            type="search"
            list="projects"
@@ -11,7 +11,7 @@
            placeholder="Search"
            @ref="searchInput" />
     <!-- ID matches list attribute -->
-    <datalist id="products">
+    <datalist id="projects">
         @foreach (var suggestion in searchSuggestions)
         {
             <option>@suggestion</option>
@@ -27,7 +27,7 @@
 </div>
 
 @code {
-    private string searchEntry = string.Empty;
+    private string searchTerm = string.Empty;
     private List<string> searchSuggestions = new List<string>();
     protected ElementReference searchInput;
 
@@ -41,7 +41,7 @@
 
     public void SearchProjects()
     {
-        NavigationManager.NavigateTo($"search/{searchEntry}");
+        NavigationManager.NavigateTo($"search/{searchTerm}");
     }
 
     public async Task HandleSearch(KeyboardEventArgs args)
@@ -49,9 +49,9 @@
         if(args.Key == null || args.Key.Equals("Enter"))
         {
             SearchProjects();
-        }else if(searchEntry.Length > 1)
+        }else if(searchTerm.Length > 1)
         {
-            //searchSuggestions = await ProjectService.GetProjectSearchSuggestions(searchEntry);
+            searchSuggestions = await ProjectService.GetProjectSearchSuggestions(searchTerm);
         }
     }
 }

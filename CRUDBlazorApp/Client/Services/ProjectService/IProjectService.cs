@@ -10,5 +10,8 @@
         Task CreateProject(Project project);
         Task UpdateProject(Project project);
         Task DeleteProject(int id);
+        Task SearchProjects(string searchTerm);
+
+        Task<List<string>> GetProjectSearchSuggestions(string searchTerm);
     }
 }

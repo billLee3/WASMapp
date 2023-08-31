@@ -26,6 +26,7 @@ namespace CRUDBlazorApp.Client.Services.ProjectService
             {
                 Projects = result;
             }
+            ProjectsChanged.Invoke();
         }
 
         public async Task<Project> GetSingleProject(int id)
@@ -79,6 +80,12 @@ namespace CRUDBlazorApp.Client.Services.ProjectService
                 Message = "No projects found.";
             }
             ProjectsChanged?.Invoke();
+        }
+
+        public async Task<List<string>> GetProjectSearchSuggestions(string searchTerm)
+        {
+            var result = await _http.GetFromJsonAsync<ServiceResponse<List<string>>>($"api/project/searchsuggestions/{searchTerm}");
+            return result.Data;
         }
     }
 }

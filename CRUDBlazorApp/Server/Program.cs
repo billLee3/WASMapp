@@ -1,6 +1,7 @@
 global using CRUDBlazorApp.Shared;
 global using Microsoft.EntityFrameworkCore;
 global using CRUDBlazorApp.Server.Data;
+global using CRUDBlazorApp.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddEndpointsApiExplorer();
 
+builder.Services.AddScoped<IProjectServerService, ProjectServerService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

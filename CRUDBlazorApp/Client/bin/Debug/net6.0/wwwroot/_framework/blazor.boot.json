@@ -197,14 +197,14 @@
       "netstandard.dll": "sha256-OUZMjYvE6WNC75Ypitp3ukl0+FlDbSW+OYEIsU7XlgQ=",
       "System.Private.CoreLib.dll": "sha256-uJANsJB4HA9iyaKf1ryCSbtypfL2uQZWxXKIn0Fz5+c=",
       "CRUDBlazorApp.Shared.dll": "sha256-pLC9eVuC3Wnsl9ttaGp6Ynt8qxzbR9\/m14a6DSqg6bw=",
-      "CRUDBlazorApp.Client.dll": "sha256-91MiqzC2G6x9imOtjUF4YTNF90qD9JNv3s10pp7yPo0="
+      "CRUDBlazorApp.Client.dll": "sha256-s\/18jiPfFpc6Wq9swJJ7qpFYn5Sq2NjcCRoJuEhOVyg="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "CRUDBlazorApp.Shared.pdb": "sha256-Xnrzj+pwm8d29mQc5smh47EDfM56EoP4ZX7rTc+0mKo=",
-      "CRUDBlazorApp.Client.pdb": "sha256-cRYbtGf4tY1bTvQTQuoMInIFJjV5nU+ztpwXzwRoNNs="
+      "CRUDBlazorApp.Client.pdb": "sha256-M7k5JkJr39T1J5djZfW2e3siddoKUyh9kLEDjtZ4gX8="
     },
     "runtime": {
       "dotnet.6.0.21.wi6mk8wzif.js": "sha256-0OV6gibFzyVtG7NXEj8a6vG3u8Cbzv4l9kkEathZjQ8=",
