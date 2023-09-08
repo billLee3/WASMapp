@@ -41,7 +41,15 @@ namespace CRUDBlazorApp.Server.Controllers
         public async Task<ActionResult<List<Project>>> CreateProject(Project project)
         {
             _context.Projects.Add(project);
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.SaveChangesAsync();
+                
+            }catch (Exception ex)
+            {
+                throw new ApplicationException(ex.ToString());
+            }
+            
 
             return Ok(await GetDbProjects());
         }

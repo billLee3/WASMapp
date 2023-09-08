@@ -101,6 +101,7 @@ namespace CRUDBlazorApp.Server.Data
 
         public DbSet<Project> Projects { get; set; }
         public DbSet<Form> Forms { get; set; }
+        public DbSet<User> Users { get; set; }
 
     }
 }

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ymP7A5Q2rWCSYwDvuyxjHEdWIQehLlNqGSfnRLRJYdDvGwZaOBMH0Yq8b3kYJLvEGI0YZMY1kCCng4UcbCy6yg==",
+  "dgSpecHash": "IBulAudXIP8MIuk/LhVi6ROGcvybep0CzwAdepmG8d/InsUeJsLBpNCy4Dtuj23VFbS0TDtzwd0xkRcukWCTaw==",
   "success": true,
   "projectFilePath": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\CRUDBlazorApp.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\billl\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
+    "C:\\Users\\billl\\.nuget\\packages\\libsassbuilder\\2.0.1\\libsassbuilder.2.0.1.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.16\\microsoft.aspnetcore.authorization.6.0.16.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.16\\microsoft.aspnetcore.components.6.0.16.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.16\\microsoft.aspnetcore.components.analyzers.6.0.16.nupkg.sha512",
@@ -28,8 +30,10 @@
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.jsinterop\\6.0.16\\microsoft.jsinterop.6.0.16.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.16\\microsoft.jsinterop.webassembly.6.0.16.nupkg.sha512",
+    "C:\\Users\\billl\\.nuget\\packages\\radzen.blazor\\4.15.11\\radzen.blazor.4.15.11.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\billl\\.nuget\\packages\\system.linq.dynamic.core\\1.3.0\\system.linq.dynamic.core.1.3.0.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",

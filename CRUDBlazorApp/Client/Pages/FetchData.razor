@@ -2,11 +2,9 @@
 @using CRUDBlazorApp.Shared
 @inject HttpClient Http
 
-<PageTitle>Full Project Data Report</PageTitle>
+<PageTitle>Project Data Reporting</PageTitle>
 
-<h1>Full Project Data Report</h1>
-
-<p>This component demonstrates fetching data from the server.</p>
+<h1>Project Reporting</h1>
 
 @if (projects == null)
 {
@@ -14,50 +12,94 @@
 }
 else
 {
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Status</th>
-                <th>AddressName</th>
-                <th>City</th>
-                <th>State</th>
-                <th>Assigned To</th>
-                <th>Create Date</th>
-                <th>Created By</th>
-                <th>Last Update</th>
-                <th>Last Update By</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var project in projects)
-            {
-                <tr>
-                    <td>@project.Name</td>
-                    <td>@project.Type</td>
-                    <td>@project.Status</td>
-                    <td>@project.AddressName</td>
-                    <td>@project.City</td>
-                    <td>@project.State</td>
-                    <td>@project.AssignedTo</td>
-                    <td>@project.CreateDate</td>
-                    <td>@project.CreatedBy</td>
-                    <td>@project.LastUpdate</td>
-                    <td>@project.LastUpdatedBy</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    <div class="d-inline-flex border-1 border-dark">
+        <div class="my-1 mx-2">
+            <label><strong>Total projects: </strong> <span>@totalProjects</span></label>
+        </div>
+        <div class="my-1 mx-2">
+            <label><strong>Total open projects: </strong> <span>@OpenProjects</span></label>
+        </div>
+        <div class="my-1 mx-2">
+            <label><strong>Total closed projects: </strong><span>@ClosedProjects</span></label>
+        </div>
+        <div class="my-1 mx-2">
+            <label><strong>NEPA Projects: </strong><span>@nepaProjects</span></label>
+        </div>
+        <div class="my-1 mx-2">
+            <label><strong>ESA Projects: </strong><span>@esaProjects</span></label>
+        </div>
+        <div class="my-1 mx-2">
+            <label><strong>PCA Projects: </strong><span>@pcaProjects</span></label>
+        </div>
+    </div>
+    <div class="my-1">
+        <RadzenDataGrid Data="@projects" TItem="Project" AllowFiltering="true" AllowColumnResize="true" AllowSorting="true">
+            <Columns>
+                <RadzenDataGridColumn TItem="Project" Property="Name" Title="Name" />
+                <RadzenDataGridColumn TItem="Project" Property="Type" Title="Type" />
+                <RadzenDataGridColumn TItem="Project" Property="Status" Title="Status" />
+                <RadzenDataGridColumn TItem="Project" Property="AddressName" Title="Address Name" />
+                <RadzenDataGridColumn TItem="Project" Property="City" Title="City" />
+                <RadzenDataGridColumn TItem="Project" Property="State" Title="State" />
+                <RadzenDataGridColumn TItem="Project" Property="AssignedTo" Title="Assigned To" />
+                <RadzenDataGridColumn TItem="Project" Property="LastUpdate" Title="Last Update" />
+            </Columns>
+        </RadzenDataGrid>
+    </div>
+    
+    
+        
+        
+   
+    
+
 }
 
 @code {
     public List<Project> projects { get; set; }
+    public string? selectedStatus { get; set; } = null;
+    public string? selectedType { get; set; } = null;
+    public List<string> statusOptions = new List<string>
+    {
+        "Open",
+        "Closed"
+    };
+    public int totalProjects { get; set; } = 0;
+    public int OpenProjects { get; set; } = 0;
+    public int ClosedProjects { get; set; } = 0;
+    public int nepaProjects { get; set; } = 0;
+    public int esaProjects { get; set; } = 0;
+    public int pcaProjects { get; set; } = 0;
 
     protected override async Task OnInitializedAsync()
     {
 
         var result = await Http.GetFromJsonAsync<List<Project>>("api/project/");
         projects = result;
+
+        foreach(var project in projects)
+        {
+            totalProjects += 1;
+            if(project.Status.ToLower() == "open")
+            {
+                OpenProjects += 1;
+            }
+            else
+            {
+                ClosedProjects += 1;
+            }
+            if(project.Type.ToLower() == "nepa")
+            {
+                nepaProjects += 1;
+            }else if(project.Type.ToLower() == "esa")
+            {
+                esaProjects += 1;
+            }else if(project.Type.ToLower() == "pca")
+            {
+                pcaProjects += 1;
+            }
+        }
     }
+
+    
 }

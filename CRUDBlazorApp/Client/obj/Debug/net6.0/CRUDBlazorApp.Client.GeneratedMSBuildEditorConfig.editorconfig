@@ -36,8 +36,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/billl/OneDrive/Documents/WGU/CRUDBlazorApp/CRUDBlazorApp/Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/billl/OneDrive/Documents/WGU/CRUDBlazorApp/CRUDBlazorApp/Client/Pages/Projects.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/billl/OneDrive/Documents/WGU/CRUDBlazorApp/CRUDBlazorApp/Client/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/billl/OneDrive/Documents/WGU/CRUDBlazorApp/CRUDBlazorApp/Client/Pages/SingleForm.razor]
@@ -67,3 +75,7 @@ build_metadata.AdditionalFiles.CssScope = b-oy8c5qvj81
 [C:/Users/billl/OneDrive/Documents/WGU/CRUDBlazorApp/CRUDBlazorApp/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-uwc2urfzt6
+
+[C:/Users/billl/OneDrive/Documents/WGU/CRUDBlazorApp/CRUDBlazorApp/Client/Shared/UserButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFVzZXJCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5hhj7e13ed

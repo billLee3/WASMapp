@@ -2,11 +2,12 @@ global using CRUDBlazorApp.Shared;
 global using Microsoft.EntityFrameworkCore;
 global using CRUDBlazorApp.Server.Data;
 global using CRUDBlazorApp.Server.Services;
+using CRUDBlazorApp.Server.Services.AuthenticationService;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+//builder.Services.AddSwaggerGen();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<DataContext>(options =>
@@ -14,6 +15,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddScoped<IProjectServerService, ProjectServerService>();
+builder.Services.AddScoped<IAuthenticate, Authenticate>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,7 +31,11 @@ else
 }
 
 app.UseHttpsRedirection();
-
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("swagger/v1/swagger.json", "Blazor API V1");
+});
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 

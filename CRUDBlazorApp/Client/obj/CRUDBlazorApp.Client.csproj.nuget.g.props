@@ -15,6 +15,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)radzen.blazor\4.15.11\buildTransitive\Radzen.Blazor.props" Condition="Exists('$(NuGetPackageRoot)radzen.blazor\4.15.11\buildTransitive\Radzen.Blazor.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\6.0.16\build\net6.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\6.0.16\build\net6.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

@@ -51,14 +51,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[6.0.16, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[4.15.11, )"
             }
           },
           "imports": [
@@ -160,6 +167,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

@@ -166,9 +166,9 @@ namespace CRUDBlazorApp.Server.Migrations
                             AddressName = "1",
                             AssignedTo = "Test",
                             City = "1",
-                            CreateDate = new DateTime(2023, 8, 29, 1, 14, 56, 23, DateTimeKind.Utc).AddTicks(3898),
+                            CreateDate = new DateTime(2023, 9, 7, 18, 23, 57, 155, DateTimeKind.Utc).AddTicks(3506),
                             CreatedBy = "Test",
-                            LastUpdate = new DateTime(2023, 8, 29, 1, 14, 56, 23, DateTimeKind.Utc).AddTicks(3902),
+                            LastUpdate = new DateTime(2023, 9, 7, 18, 23, 57, 155, DateTimeKind.Utc).AddTicks(3509),
                             LastUpdatedBy = "Test",
                             Name = "Project 1",
                             State = "1",
@@ -181,9 +181,9 @@ namespace CRUDBlazorApp.Server.Migrations
                             AddressName = "Columbus Ave",
                             AssignedTo = "Test",
                             City = "Huntsville",
-                            CreateDate = new DateTime(2023, 8, 29, 1, 14, 56, 23, DateTimeKind.Utc).AddTicks(3904),
+                            CreateDate = new DateTime(2023, 9, 7, 18, 23, 57, 155, DateTimeKind.Utc).AddTicks(3511),
                             CreatedBy = "Test",
-                            LastUpdate = new DateTime(2023, 8, 29, 1, 14, 56, 23, DateTimeKind.Utc).AddTicks(3904),
+                            LastUpdate = new DateTime(2023, 9, 7, 18, 23, 57, 155, DateTimeKind.Utc).AddTicks(3511),
                             LastUpdatedBy = "Test",
                             Name = "Project 2",
                             State = "AL",
@@ -196,15 +196,43 @@ namespace CRUDBlazorApp.Server.Migrations
                             AddressName = "Huntsvill Road",
                             AssignedTo = "Test",
                             City = "Columbus",
-                            CreateDate = new DateTime(2023, 8, 29, 1, 14, 56, 23, DateTimeKind.Utc).AddTicks(3905),
+                            CreateDate = new DateTime(2023, 9, 7, 18, 23, 57, 155, DateTimeKind.Utc).AddTicks(3512),
                             CreatedBy = "Test",
-                            LastUpdate = new DateTime(2023, 8, 29, 1, 14, 56, 23, DateTimeKind.Utc).AddTicks(3906),
+                            LastUpdate = new DateTime(2023, 9, 7, 18, 23, 57, 155, DateTimeKind.Utc).AddTicks(3513),
                             LastUpdatedBy = "Test",
                             Name = "Project 3",
                             State = "OH",
                             Status = "Open",
                             Type = ""
                         });
+                });
+
+            modelBuilder.Entity("CRUDBlazorApp.Shared.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<byte[]>("PasswordSalt")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }
