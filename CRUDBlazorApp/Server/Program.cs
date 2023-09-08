@@ -7,7 +7,7 @@ using CRUDBlazorApp.Server.Services.AuthenticationService;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-//builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<DataContext>(options =>
@@ -17,7 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<IProjectServerService, ProjectServerService>();
 builder.Services.AddScoped<IAuthenticate, Authenticate>();
 var app = builder.Build();
-
+app.UseSwaggerUI();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -32,10 +32,7 @@ else
 
 app.UseHttpsRedirection();
 app.UseSwagger();
-app.UseSwaggerUI(c =>
-{
-    c.SwaggerEndpoint("swagger/v1/swagger.json", "Blazor API V1");
-});
+
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
