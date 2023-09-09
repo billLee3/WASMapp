@@ -10,7 +10,7 @@ namespace CRUDBlazorApp.Shared
     public class Form
     {
         public int Id { get; set; }
-        //public DateTime DateTimeOfInspection { get; set; }
+       
         public string? POCName { get; set; }
         public string? POCRelationToProp { get; set; }
         public string? POCPhone { get; set; }
