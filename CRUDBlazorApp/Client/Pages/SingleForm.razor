@@ -1,6 +1,7 @@
 ﻿@page "/form"
 @page "/form/{id:int}"
 @inject IFormService FormService
+@attribute [Authorize]
 
 @if (Id == null)
 {

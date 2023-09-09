@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDBlazorApp.Client", "CRU
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDBlazorApp.Shared", "CRUDBlazorApp\Shared\CRUDBlazorApp.Shared.csproj", "{D902B02D-B2CC-4257-B7E1-A354284FE154}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTests", "BlazorTests\BlazorTests.csproj", "{9378C503-E7AE-4636-AD2A-78FEBBFEC6D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D902B02D-B2CC-4257-B7E1-A354284FE154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D902B02D-B2CC-4257-B7E1-A354284FE154}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D902B02D-B2CC-4257-B7E1-A354284FE154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9378C503-E7AE-4636-AD2A-78FEBBFEC6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9378C503-E7AE-4636-AD2A-78FEBBFEC6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9378C503-E7AE-4636-AD2A-78FEBBFEC6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9378C503-E7AE-4636-AD2A-78FEBBFEC6D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

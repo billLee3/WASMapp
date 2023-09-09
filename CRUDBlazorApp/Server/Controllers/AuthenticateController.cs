@@ -40,6 +40,7 @@ namespace CRUDBlazorApp.Server.Controllers
             if(!response.Success) {
                 return BadRequest(response);
             }
+            GlobalConfig.user = request.Email;
             return Ok(response);
         }
 

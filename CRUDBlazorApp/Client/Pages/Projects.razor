@@ -4,18 +4,20 @@
 @implements IDisposable
 
 <PageTitle>Projects</PageTitle>
-
+<SearchComponent/>
 <h3>Projects</h3>
 @foreach (var project in ProjectService.Projects)
 {
     <div class="my-2">
         <div class="card" style="width: 35rem;">
+            <div class="card-header">
+                <h5 class="card-title text-primary">@project.Name</h5>
+            </div>
             <div class="card-body">
-                <h5 class="card-title">@project.Name</h5>
                 <h6 class="card-subtitle">@project.Status</h6>
                 <p class="card-text">Address: @project.AddressName, @project.City, @project.State</p>
                 <button class="btn btn-outline-primary" @onclick="(() => ShowProject(project.Id))"><i class="oi oi-pencil"></i></button>
-                <button class="btn btn-outline-danger">Delete</button>
+                
             </div>
         </div>
     </div>

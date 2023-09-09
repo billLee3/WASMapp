@@ -10,16 +10,17 @@ namespace CRUDBlazorApp.Shared
     public class Project
     {
         public int Id { get; set; }
-        [Required(ErrorMessage = "Name is a required field")]
+        [Required(ErrorMessage = "Name is required.")]
+
         public string Name { get; set; } = string.Empty;
         public string Type { get; set;} = string.Empty;
-        [Required(ErrorMessage = "Status is a required field")]
+        [Required]
         public string Status { get; set; } = string.Empty;
-        [Required(ErrorMessage = "Address name is a required field")]
+        [Required]
         public string AddressName { get; set; } = string.Empty;
-        [Required(ErrorMessage = "City is a required field")]
+        [Required]
         public string City { get; set; } = string.Empty;
-        [Required(ErrorMessage = "State is a required field")]
+        [Required]
         public string State { get; set; } = string.Empty;
         public string AssignedTo { get; set; } = string.Empty;
         public DateTime CreateDate { get; set; }

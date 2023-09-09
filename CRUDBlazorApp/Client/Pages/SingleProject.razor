@@ -1,6 +1,8 @@
 ﻿@page "/project"
 @page "/project/{id:int}"
 @inject IProjectService ProjectService
+@inject IAuthen Authen
+@attribute [Authorize]
 
 @if (Id == null)
 {
@@ -9,11 +11,13 @@
 }
 else
 {
-    <PageTitle>Edit @project</PageTitle>
-    <h3>Edit @project</h3>
+    <PageTitle>Edit @project.Name</PageTitle>
+    <h3>Edit @project.Name</h3>
 }
 
-<EditForm Model="project" OnSubmit="HandleSubmit">
+
+
+    <EditForm Model="project" OnSubmit="HandleSubmit">
     <DataAnnotationsValidator />
     <div class="form-group row">
         <label for="name">Name</label>
@@ -41,22 +45,33 @@ else
         <ValidationMessage For="@(() => project.City)" />
     </div>
     <div class="form-group row">
+        
         <label for="state">State</label>
         <InputText id="state" @bind-Value="project.State" class="form-control"></InputText>
         <ValidationMessage For="@(() => project.State)" />
+        
+    </div>
+    <div class="form-group row">
+        <label for="assignedTo">Assigned To</label>
+        
     </div>
     <div class="form-group row">
         <button type="submit" class="btn btn-primary">@btnMsg</button>
         <button type="button" class="btn btn-danger" @onclick="DeleteProject">Delete</button>
     </div>
-    
 </EditForm>
+<div class="text-danger">
+    <span>@errorMessage</span>
+</div>
+
+
 
 @code {
     [Parameter]
     public int? Id { get; set; }
+    string errorMessage = string.Empty;
     private string btnMsg = string.Empty;
-    Project project = new Project();
+    Project? project = null;
 
     protected override async Task OnInitializedAsync()
     {
@@ -67,7 +82,7 @@ else
     {
         if (Id == null)
         {
-
+            project = new Project();
         }
         else
         {
@@ -79,7 +94,14 @@ else
     {
         if(Id == null)
         {
-            await ProjectService.CreateProject(project);
+            try
+            {
+                await ProjectService.CreateProject(project);
+            }catch (Exception ex)
+            {
+                errorMessage = "You did not fill out all of the required inputs on this form. ";
+            }
+
         }
         else
         {

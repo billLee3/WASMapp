@@ -1,5 +1,6 @@
 ﻿using CRUDBlazorApp.Client.Services.ProjectService;
 using CRUDBlazorApp.Server.Services;
+using CRUDBlazorApp.Shared;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -40,6 +41,12 @@ namespace CRUDBlazorApp.Server.Controllers
         [HttpPost]
         public async Task<ActionResult<List<Project>>> CreateProject(Project project)
         {
+            project.CreateDate = DateTime.UtcNow;
+            project.CreatedBy = GlobalConfig.user;
+            project.AssignedTo = GlobalConfig.user;
+            project.LastUpdate = DateTime.UtcNow;
+            project.LastUpdatedBy = GlobalConfig.user;
+
             _context.Projects.Add(project);
             try
             {
@@ -47,7 +54,7 @@ namespace CRUDBlazorApp.Server.Controllers
                 
             }catch (Exception ex)
             {
-                throw new ApplicationException(ex.ToString());
+                return BadRequest(ex.Message);
             }
             
 
@@ -70,9 +77,9 @@ namespace CRUDBlazorApp.Server.Controllers
                 dbProject.AddressName = project.AddressName;
                 dbProject.City = project.City;
                 dbProject.State = project.State;
-                dbProject.AssignedTo = project.AssignedTo;
-                dbProject.LastUpdate = project.LastUpdate;
-                dbProject.LastUpdatedBy = project.LastUpdatedBy;
+                dbProject.AssignedTo = GlobalConfig.user;
+                dbProject.LastUpdate = DateTime.UtcNow;
+                dbProject.LastUpdatedBy = GlobalConfig.user;
 
                 await _context.SaveChangesAsync();
             }
