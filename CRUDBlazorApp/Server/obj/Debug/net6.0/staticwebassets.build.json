@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Su/Z/p+QhQN+9EG+DiMhNAXKHP4X/vEt3AlQJo5QOfg=",
+  "Hash": "NCdd9Ij7gukMLb3rSl9WvD6yaxN9ou5V+00RFeh8qzA=",
   "Source": "CRUDBlazorApp.Server",
   "BasePath": "_content/CRUDBlazorApp.Server",
   "Mode": "Default",
@@ -842,7 +842,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.16\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.18\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "CRUDBlazorApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.18\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -859,7 +876,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.16\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.18\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -927,7 +944,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.16\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\billl\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.18\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -1131,7 +1148,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\billl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.3\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\billl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.4\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -4177,6 +4194,23 @@
       "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.dll"
     },
     {
+      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\0xufXgdT.gz",
+      "SourceId": "CRUDBlazorApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\1mdHjW4c.gz",
       "SourceId": "CRUDBlazorApp.Client",
       "SourceType": "Project",
@@ -4328,23 +4362,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.DataSetExtensions.dll"
-    },
-    {
-      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\3lPVgWB4.gz",
-      "SourceId": "CRUDBlazorApp.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\3RME3RLv.gz",
@@ -4840,23 +4857,6 @@
       "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.HttpListener.dll"
     },
     {
-      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\aJj9OHMC.gz",
-      "SourceId": "CRUDBlazorApp.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\AM1xr37+.gz",
       "SourceId": "CRUDBlazorApp.Client",
       "SourceType": "Project",
@@ -5061,6 +5061,23 @@
       "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
+      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\CaJyrVhJ.gz",
+      "SourceId": "CRUDBlazorApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\cBy0qJ34.gz",
       "SourceId": "CRUDBlazorApp.Client",
       "SourceType": "Project",
@@ -5127,6 +5144,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Web.HttpUtility.dll"
+    },
+    {
+      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\cR0Th75p.gz",
+      "SourceId": "CRUDBlazorApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\CRf+cxBH.gz",
@@ -5333,6 +5367,23 @@
       "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.dll"
     },
     {
+      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\f4dVa3Ht.gz",
+      "SourceId": "CRUDBlazorApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\F8k6t91s.gz",
       "SourceId": "CRUDBlazorApp.Client",
       "SourceType": "Project",
@@ -5416,23 +5467,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll"
-    },
-    {
-      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\fTT4C3HJ.gz",
-      "SourceId": "CRUDBlazorApp.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\g9AW0MV6.gz",
@@ -6011,6 +6045,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
+      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\KmlT0Fcg.gz",
+      "SourceId": "CRUDBlazorApp.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\KNkQiKhC.gz",
@@ -7014,23 +7065,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.dll"
-    },
-    {
-      "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\UziXVgxO.gz",
-      "SourceId": "CRUDBlazorApp.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\CRUDBlazorApp\\Client\\obj\\Debug\\net6.0\\build-gz\\V+4GwHP4.gz",

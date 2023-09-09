@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2luZ2xlUHJvamVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/billl/OneDrive/Documents/WGU/CRUDBlazorApp/CRUDBlazorApp/Client/Pages/UserProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/billl/OneDrive/Documents/WGU/CRUDBlazorApp/CRUDBlazorApp/Client/Shared/SearchComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

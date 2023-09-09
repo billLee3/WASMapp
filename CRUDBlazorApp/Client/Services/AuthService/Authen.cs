@@ -11,6 +11,12 @@ namespace CRUDBlazorApp.Client.Services.AuthService
             _http = http;
         }
 
+        public async Task<ServiceResponse<bool>> ChangePassword(ChangePassword request)
+        {
+            var result = await _http.PostAsJsonAsync("api/authenticate/change-password", request.Password);
+            return await result.Content.ReadFromJsonAsync<ServiceResponse<bool>>();
+        }
+
         public async Task<ServiceResponse<string>> Login(UserLogin request)
         {
             var results = await _http.PostAsJsonAsync("api/authenticate/login", request);

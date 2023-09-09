@@ -112,3 +112,5 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.pdb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.genruntimeconfig.cache
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\ref\CRUDBlazorApp.Server.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

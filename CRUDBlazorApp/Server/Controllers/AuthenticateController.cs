@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using CRUDBlazorApp.Server.Services.AuthenticationService;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace CRUDBlazorApp.Server.Controllers
 {
@@ -38,6 +40,20 @@ namespace CRUDBlazorApp.Server.Controllers
             if(!response.Success) {
                 return BadRequest(response);
             }
+            return Ok(response);
+        }
+
+        [HttpPost("change-password"), Authorize]
+        public async Task<ActionResult<ServiceResponse<bool>>> ChangePassword([FromBody] string password)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var response = await _authenticate.ChangePassword(int.Parse(userId), password);
+
+            if (!response.Success)
+            {
+                return BadRequest(response.Message);
+            }
+
             return Ok(response);
         }
 

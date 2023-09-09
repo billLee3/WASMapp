@@ -1,12 +1,30 @@
-﻿
+﻿@inject ILocalStorageService LocalStorageService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
 
-<div>
-    <a href="register">Register</a>
-</div>
+<AuthorizeView>
+    <Authorized>
+        <a href="userprofile">Profile</a>
+        <button class="mx-2" @onclick="Logout">Logout</button>
+    </Authorized>
+    <NotAuthorized>
+        <div class="d-inline-flex p-2">
+            <a href="login" class="mx-2">Login</a>
+            <a href="register" class="mx-2">Register</a>
+        </div>
+    </NotAuthorized>
+</AuthorizeView>
 
 
 
 
 @code {
-    
+
+    //https://chrissainty.com/securing-your-blazor-apps-configuring-role-based-authorization-with-client-side-blazor/
+    private async Task Logout()
+    {
+        await LocalStorageService.RemoveItemAsync("authToken");
+        await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        NavigationManager.NavigateTo("");
+    }
 }
