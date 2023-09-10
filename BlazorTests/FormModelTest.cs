@@ -15,23 +15,8 @@ using Xunit;
 namespace BlazorTests
 {
     
-    public class ModelTest
+    public class FormModelTest
     {
-        [Theory]
-        [InlineData("project 10", "NEPA", "Open", "111 Broad St.", "Columbus", "Ohio")]
-       public void Project_CreateProject(string name, string type, string status, string addressName, string city, string state)
-        {
-            //Act
-            Project project = new Project{ Name=name, Type=type, Status=status, AddressName=addressName, City=city, State=state};
-
-            //Assert
-            project.Should().NotBeNull();
-            project.Name.Should().Be(name);
-            project.Type.Should().Be(type);
-            project.Status.Should().Be(status);
-            project.Should().BeOfType<Project>();
-        }
-
         [Theory]
         [InlineData("John Doe", "Owner", "123-456-7890", "Urban", "Raining", "Commercial", 1000, "Yes", "Yes", "Yes", "No", 1)]
         public void Form_CreateForm(string POCName, string relation, string phone, string setting, string weather, string zoning, int sqft, string nG, string propane, string oil, string electric, int projectID)
@@ -61,24 +46,7 @@ namespace BlazorTests
             form.Should().BeOfType<Form>();
         }
 
-        [Theory]
-        [InlineData("john.doe@gmail.com", "testPassword#2", "testPassword#2")]
-        public void User_UserCreation(string email, string password, string confirmPassword)
-        {
-            //Act
-            UserRegister request = new UserRegister
-            {
-                Email = email,
-                Password = password,
-                ConfirmPassword = confirmPassword
-            };
-
-            //Assert
-            request.Should().NotBeNull();
-            request.Email.Should().Be(email);
-            request.Password.Should().BeEquivalentTo(confirmPassword);
-            request.Should().BeOfType<UserRegister>();
-        }
+        
 
 
 

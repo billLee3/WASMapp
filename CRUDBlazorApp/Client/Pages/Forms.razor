@@ -5,7 +5,7 @@
 <PageTitle>Forms</PageTitle>
 
 <h3>Forms</h3>
-@foreach (var form in FormService.Forms)
+@foreach (var form in FormsList)
 {
     <div class="my-2">
         <div class="card" style="width: 35rem;">
@@ -16,7 +16,6 @@
                 
                 <h6 class="card-subtitle">Project ID: @form.ProjectID</h6>
                 <p class="card-text">
-                    <!-- Date and Time of Inspection:  <br> -->
                     Point of Contact: @form.POCName - @form.POCPhone <br>
                     Physical Setting: @form.PhysicalSetting <br>
                     Zoning: @form.Zoning
@@ -30,9 +29,12 @@
 <button id="addButton" class="btn btn-primary" @onclick="CreateForm">Add Form</button>
 
 @code {
+    List<Form> FormsList = new List<Form>();
+
     protected override async Task OnInitializedAsync()
     {
         await FormService.GetForms();
+        FormsList = FormService.Forms;
     }
 
     void ShowForm(int id)

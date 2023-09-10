@@ -3,6 +3,7 @@
 @inject ILocalStorageService LocalStorage
 @inject AuthenticationStateProvider AuthenticationStateProvider
 
+
 @inject NavigationManager NavigationManager
 
 <PageTitle>Login</PageTitle>
@@ -19,7 +20,7 @@
         <ValidationMessage For="@(() => user.Password)" />
     </div>
     
-    <button type="submit" class="btn btn-primary">Register</button>
+    <button type="submit" class="btn btn-primary">Login</button>
 
     <!--<ValidationSummary />-->
 </EditForm>
@@ -48,4 +49,5 @@
             errorMessage = result.Message;
         }
     }
+
 }
