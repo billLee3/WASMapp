@@ -3,7 +3,7 @@
 @attribute [Authorize]
 
 <AuthorizeView>
-    <h3>Hi! @context.User.Identity.Name .</h3>
+    <h3>Hi! You're logged in using the following email address:  @context.User.Identity.Name.</h3>
 </AuthorizeView>
 
 <h4>Change Password? </h4>

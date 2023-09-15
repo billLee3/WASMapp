@@ -1,6 +1,8 @@
 ﻿@page "/fetchdata"
 @using CRUDBlazorApp.Shared
 @inject HttpClient Http
+@inject IProjectService ProjectService
+@implements IDisposable
 
 <PageTitle>Project Data Reporting</PageTitle>
 
@@ -31,6 +33,11 @@ else
         <div class="my-1 mx-2">
             <label><strong>PCA Projects: </strong><span>@pcaProjects</span></label>
         </div>
+    </div>
+    <div>
+        <button @onclick="HandleClick">Projects in Ohio</button>
+        <button @onclick="ALProjects">Projects in Alabama</button>
+        <button @onclick="AllProjects">All Projects</button>
     </div>
     <div class="my-1">
         <RadzenDataGrid Data="@projects" TItem="Project" AllowFiltering="true" AllowColumnResize="true" AllowSorting="true">
@@ -70,12 +77,13 @@ else
     public int nepaProjects { get; set; } = 0;
     public int esaProjects { get; set; } = 0;
     public int pcaProjects { get; set; } = 0;
+    public int count;
 
     protected override async Task OnInitializedAsync()
     {
 
-        var result = await Http.GetFromJsonAsync<List<Project>>("api/project/");
-        projects = result;
+        await ProjectService.GetProjects();
+        projects = ProjectService.Projects;
 
         foreach(var project in projects)
         {
@@ -99,6 +107,34 @@ else
                 pcaProjects += 1;
             }
         }
+    }
+
+    protected override void OnInitialized()
+    {
+        ProjectService.ProjectsChanged += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        ProjectService.ProjectsChanged -= StateHasChanged;
+    }
+
+    public async void HandleClick()
+    {
+        await ProjectService.SearchProjects("OH");
+        projects = ProjectService.Projects;
+    }
+
+    public async void AllProjects()
+    {
+        await ProjectService.GetProjects();
+        projects = ProjectService.Projects;
+    }
+
+    public async void ALProjects()
+    {
+        await ProjectService.SearchProjects("AL");
+        projects = ProjectService.Projects;
     }
 
     

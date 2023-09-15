@@ -5,6 +5,7 @@ using CRUDBlazorApp.Server.Services.AuthenticationService;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 
+//Code developed by following allow with following course: https://www.udemy.com/course/blazor-ecommerce/learn/
 namespace CRUDBlazorApp.Server.Controllers
 {
     [Route("api/[controller]")]

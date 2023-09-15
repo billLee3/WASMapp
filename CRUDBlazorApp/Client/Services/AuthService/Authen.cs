@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Json;
 
+//Code developed by following allow with following course: https://www.udemy.com/course/blazor-ecommerce/learn/
 namespace CRUDBlazorApp.Client.Services.AuthService
 {
     public class Authen : IAuthen

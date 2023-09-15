@@ -105,6 +105,8 @@ namespace CRUDBlazorApp.Server.Controllers
             return await _context.Projects.ToListAsync();
         }
 
+
+        //PolyMorphism
         [HttpGet("search/{searchTerm}")]
         public async Task<ActionResult<ServiceResponse<List<Project>>>> SearchProjects(string searchTerm)
         {
@@ -112,6 +114,7 @@ namespace CRUDBlazorApp.Server.Controllers
             return Ok(result);
         }
 
+        //PolyMorphism
         [HttpGet("searchsuggestions/{searchTerm}")]
         public async Task<ActionResult<ServiceResponse<List<Project>>>> GetSearchSuggestions(string searchTerm)
         {

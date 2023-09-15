@@ -19,6 +19,7 @@
             return response;
         }
 
+        //ENCAPSULATION
         private async Task<List<Project>> FindProjectsBySearch(string searchTerm)
         {
             return await _context.Projects.Where(p => p.Name.ToLower().Contains(searchTerm.ToLower()) ||

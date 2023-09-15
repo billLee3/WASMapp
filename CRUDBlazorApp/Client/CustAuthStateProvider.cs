@@ -6,6 +6,7 @@ using System.Text.Json;
 
 namespace CRUDBlazorApp.Client
 {
+    //Code developed by following allow with following course: https://www.udemy.com/course/blazor-ecommerce/learn/
     public class CustAuthStateProvider : AuthenticationStateProvider
     {
         private readonly ILocalStorageService _localStorageService;

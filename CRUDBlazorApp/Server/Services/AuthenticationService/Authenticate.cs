@@ -6,6 +6,8 @@ using System.Security.Cryptography;
 
 namespace CRUDBlazorApp.Server.Services.AuthenticationService
 {
+    //Code developed by following allow with following course: https://www.udemy.com/course/blazor-ecommerce/learn/
+    //INHERITANCE
     public class Authenticate : IAuthenticate
     {
         private readonly DataContext _context;
