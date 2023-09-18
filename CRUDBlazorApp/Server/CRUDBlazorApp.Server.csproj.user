@@ -5,6 +5,7 @@
     <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ControllerDialogWidth>650</WebStackScaffolding_ControllerDialogWidth>
     <ActiveDebugProfile>CRUDBlazorApp.Server</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\Properties\PublishProfiles\crudblazorappserver-app-20230918.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

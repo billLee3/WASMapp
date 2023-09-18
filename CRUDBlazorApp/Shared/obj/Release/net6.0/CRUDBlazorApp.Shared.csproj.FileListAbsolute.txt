@@ -1,0 +1,11 @@
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\bin\Release\net6.0\CRUDBlazorApp.Shared.deps.json
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\bin\Release\net6.0\CRUDBlazorApp.Shared.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\bin\Release\net6.0\CRUDBlazorApp.Shared.pdb
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\obj\Release\net6.0\CRUDBlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\obj\Release\net6.0\CRUDBlazorApp.Shared.AssemblyInfoInputs.cache
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\obj\Release\net6.0\CRUDBlazorApp.Shared.AssemblyInfo.cs
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\obj\Release\net6.0\CRUDBlazorApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\obj\Release\net6.0\CRUDBlazorApp.Shared.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\obj\Release\net6.0\refint\CRUDBlazorApp.Shared.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\obj\Release\net6.0\CRUDBlazorApp.Shared.pdb
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Shared\obj\Release\net6.0\ref\CRUDBlazorApp.Shared.dll

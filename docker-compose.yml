@@ -17,7 +17,7 @@ services:
      - backend
 
    crudblazorapp.server:
-     container_name: CRUD-blazor-app
+     container_name: crud-blazor-app
      image: ${DOCKER_REGISTRY-}crudblazorappserver
      build:
        context: .
