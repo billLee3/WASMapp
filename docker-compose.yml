@@ -1,0 +1,35 @@
+version: '3.4'
+
+networks:
+    backend:
+
+
+services:
+   blazordb:
+     container_name: app-db    
+     image: mcr.microsoft.com/mssql/server:2019-latest
+     ports:
+     - 8001:1433
+     environment:
+     - ACCEPT_EULA=Y
+     - SA_PASSWORD=password@12345#
+     networks:
+     - backend
+
+   crudblazorapp.server:
+     container_name: CRUD-blazor-app
+     image: ${DOCKER_REGISTRY-}crudblazorappserver
+     build:
+       context: .
+       dockerfile: CRUDBlazorApp/Server/Dockerfile
+     ports:
+      - 8002:80
+     networks:
+      - backend
+     depends_on:
+      - blazordb
+     environment: 
+      - DB_HOST=blazordb
+      - DB_NAME=blazor
+      - DB_SA_PASSWORD=password@12345#
+

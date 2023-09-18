@@ -12,8 +12,24 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-builder.Services.AddDbContext<DataContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+var dbHost = Environment.GetEnvironmentVariable("DB_HOST");
+var dbName = Environment.GetEnvironmentVariable("DB_NAME");
+var dbPassword = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
+
+
+var connectionString = $"Data Source={dbHost};Initial Catalog={dbName};User ID =sa; Password={dbPassword};Trusted_Connection=True;TrustServerCertificate=True; integrated security=false";
+builder.Services.AddDbContext<DataContext>(opt => {
+opt.UseSqlServer(
+    connectionString,
+    opt => opt.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: System.TimeSpan.FromSeconds(30),
+            errorNumbersToAdd: null)
+            );
+    });
+
+//builder.Services.AddDbContext<DataContext>(options =>
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddScoped<IProjectServerService, ProjectServerService>();

@@ -1,11 +1,3 @@
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.csproj.AssemblyReference.cache
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.AssemblyInfoInputs.cache
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.AssemblyInfo.cs
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.csproj.CoreCompileInputs.cache
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.RazorAssemblyInfo.cache
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.RazorAssemblyInfo.cs
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\CRUDBlazorApp.Client.staticwebassets.runtime.json
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\appsettings.json
@@ -25,8 +17,10 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Blazored.LocalStorage.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Humanizer.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
@@ -97,7 +91,15 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\CRUDBlazorApp.Shared.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\CRUDBlazorApp.Client.pdb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\CRUDBlazorApp.Shared.pdb
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.csproj.AssemblyReference.cache
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.AssemblyInfoInputs.cache
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.AssemblyInfo.cs
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.csproj.CoreCompileInputs.cache
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.RazorAssemblyInfo.cache
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.RazorAssemblyInfo.cs
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\staticwebassets\msbuild.CRUDBlazorApp.Server.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\staticwebassets\msbuild.build.CRUDBlazorApp.Server.props
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CRUDBlazorApp.Server.props
@@ -112,5 +114,3 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.pdb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\CRUDBlazorApp.Server.genruntimeconfig.cache
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\obj\Debug\net6.0\ref\CRUDBlazorApp.Server.dll
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

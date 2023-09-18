@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U89GTXRivsjNqInIDrzDxNJTcrLOlMYwJCls8kbBsMtwoA8xDNZQ5ldQhU593WrZWObWmy/VxqvMd6uT47U+Vg==",
+  "dgSpecHash": "Ke8WEiJn6xic/4gVNGAPRNmiyDW9A9XtUYi1DCbOsddGBp8M+bxUDaz6kCD1RFI6rqu/qA+9uMJ7NOZqcWGXwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\billl\\OneDrive\\Documents\\WGU\\CRUDBlazorApp\\BlazorTests\\BlazorTests.csproj",
   "expectedPackageFiles": [
@@ -75,6 +75,7 @@
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "C:\\Users\\billl\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\billl\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
