@@ -20,7 +20,8 @@ var dbName = Environment.GetEnvironmentVariable("DB_NAME");
 var dbPassword = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
 
 
-var connectionString = $"Data Source={dbHost};Initial Catalog={dbName};User ID =sa; Password={dbPassword};Trusted_Connection=True;TrustServerCertificate=True; integrated security=false";
+//var connectionString = $"Data Source={dbHost};Initial Catalog={dbName};User ID =sa; Password={dbPassword};Trusted_Connection=True;TrustServerCertificate=True; integrated security=false";
+var connectionString = "Server=tcp:crudblazorappserverdbserver.database.windows.net,1433;Initial Catalog=CRUDBlazorApp.Server_db;Persist Security Info=False;User ID=billLeeThird;Password=password@12345#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 builder.Services.AddDbContext<DataContext>(opt => {
     opt.UseSqlServer(
         connectionString,

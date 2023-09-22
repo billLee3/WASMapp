@@ -377,14 +377,6 @@
             },
             "Patterns": null
           },
-          "icudt.dat": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 1,
-              "SubPath": "_framework/icudt.dat"
-            },
-            "Patterns": null
-          },
           "icudt_CJK.dat": {
             "Children": null,
             "Asset": {
@@ -406,6 +398,14 @@
             "Asset": {
               "ContentRootIndex": 1,
               "SubPath": "_framework/icudt_no_CJK.dat"
+            },
+            "Patterns": null
+          },
+          "icudt.dat": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 1,
+              "SubPath": "_framework/icudt.dat"
             },
             "Patterns": null
           },
@@ -3631,6 +3631,14 @@
           },
           "open-iconic": {
             "Children": {
+              "FONT-LICENSE": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 3,
+                  "SubPath": "css/open-iconic/FONT-LICENSE"
+                },
+                "Patterns": null
+              },
               "font": {
                 "Children": {
                   "css": {
@@ -3695,14 +3703,6 @@
                   }
                 },
                 "Asset": null,
-                "Patterns": null
-              },
-              "FONT-LICENSE": {
-                "Children": null,
-                "Asset": {
-                  "ContentRootIndex": 3,
-                  "SubPath": "css/open-iconic/FONT-LICENSE"
-                },
                 "Patterns": null
               },
               "ICON-LICENSE": {
