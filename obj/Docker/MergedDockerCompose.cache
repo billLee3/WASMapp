@@ -1,18 +1,43 @@
 name: dockercompose6712846214492072799
 services:
+  blazordb:
+    container_name: app-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: password@12345#
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "8001"
+      protocol: tcp
   crudblazorapp.server:
     build:
       context: C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp
       dockerfile: CRUDBlazorApp/Server/Dockerfile
+    container_name: crud-blazor-app
+    depends_on:
+      blazordb:
+        condition: service_started
+        required: true
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
+      DB_HOST: blazordb
+      DB_NAME: blazor
+      DB_SA_PASSWORD: password@12345#
     image: crudblazorappserver
     networks:
-      default: null
+      backend: null
     ports:
     - mode: ingress
       target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8002"
       protocol: tcp
     - mode: ingress
       target: 443
@@ -31,5 +56,5 @@ services:
       bind:
         create_host_path: true
 networks:
-  default:
-    name: dockercompose6712846214492072799_default
+  backend:
+    name: dockercompose6712846214492072799_backend

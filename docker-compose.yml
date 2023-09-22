@@ -32,4 +32,3 @@ services:
       - DB_HOST=blazordb
       - DB_NAME=blazor
       - DB_SA_PASSWORD=password@12345#
-

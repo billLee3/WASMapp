@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
 	  <GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
-	  <UserSecretsId>63923ec0-4012-4993-85fa-c982c920b9e3</UserSecretsId>
+	  <UserSecretsId>e21aa770-8b26-4d26-b411-95813d0bfda7</UserSecretsId>
 	  <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	  <DockerfileContext>..\..</DockerfileContext>
 	  <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>

@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>b9e10c25-0604-42b7-b48c-4781e43c88bd</ProjectGuid>
+    <ProjectGuid>0c5d6214-6993-4a8a-bd91-4efa278b3585</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>crudblazorapp.server</DockerServiceName>

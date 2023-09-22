@@ -13,7 +13,6 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
@@ -210,7 +209,6 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Ping.dll.gz
@@ -220,6 +218,7 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Linq.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.ValueTuple.dll.gz
@@ -249,6 +248,7 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Radzen.Blazor.dll.gz
@@ -261,12 +261,10 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Collections.dll.gz
@@ -279,12 +277,12 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Core.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Security.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
@@ -319,7 +317,6 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
@@ -379,6 +376,7 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Configuration.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
@@ -415,7 +413,6 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\Blazored.LocalStorage.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
@@ -621,13 +618,9 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\CRUDBlazorApp.Client.csproj.CoreCompileInputs.cache
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\CRUDBlazorApp.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\52z9LsOe.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\0xufXgdT.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\KmlT0Fcg.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\f4dVa3Ht.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\kGMydFkg.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\6ib7Fsen.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\1ONuFKSR.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\cR0Th75p.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\6kRiVjOZ.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\YwLo8TXz.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\+36ECkVz.gz
@@ -639,7 +632,6 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\rBdYoV7X.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\2+LIyEuy.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\HLEJPuYt.gz
-C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\CaJyrVhJ.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\VAaMw1+O.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\Zmi37hsI.gz
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\T1gAfCTO.gz
@@ -843,3 +835,11 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Deb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\refint\CRUDBlazorApp.Client.dll
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\CRUDBlazorApp.Client.pdb
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\ref\CRUDBlazorApp.Client.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\0xufXgdT.gz
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\KmlT0Fcg.gz
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\f4dVa3Ht.gz
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\cR0Th75p.gz
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\CRUDBlazorApp\Client\obj\Debug\net6.0\build-gz\CaJyrVhJ.gz

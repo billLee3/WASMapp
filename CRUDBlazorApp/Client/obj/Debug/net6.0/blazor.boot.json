@@ -200,14 +200,14 @@
       "mscorlib.dll": "sha256-ZQiPq7CHB7vwsbgiGeI63xqAYmfnZVwKnCDxwIIfh68=",
       "netstandard.dll": "sha256-OUZMjYvE6WNC75Ypitp3ukl0+FlDbSW+OYEIsU7XlgQ=",
       "System.Private.CoreLib.dll": "sha256-uJANsJB4HA9iyaKf1ryCSbtypfL2uQZWxXKIn0Fz5+c=",
-      "CRUDBlazorApp.Shared.dll": "sha256-xyECqZPq4gJTKPI21dMq2zgsSjtk4lkLYEOIixcsxhY=",
+      "CRUDBlazorApp.Shared.dll": "sha256-+1TtXcfhgSb4NewspAbooy\/Cd42D0GcvL8jvjgADJ5I=",
       "CRUDBlazorApp.Client.dll": "sha256-h1LpuYug7Q4OO5AWyyXOXPJ+PH8IRmxUDz5j6q7fQwk="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "CRUDBlazorApp.Shared.pdb": "sha256-AyfyBSQGpGmE4ofUctweJGUHRleXdwQglrZTwFqxCIQ=",
+      "CRUDBlazorApp.Shared.pdb": "sha256-ofGOdQQ7B78xdysfE5ylXTCOQzxJkABSoi84OEi7gmI=",
       "CRUDBlazorApp.Client.pdb": "sha256-186my5qYptm1upggxcwVT5UYmvhH2J7A1ChT2IzeGyk="
     },
     "runtime": {
