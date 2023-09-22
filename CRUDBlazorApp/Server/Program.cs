@@ -5,12 +5,14 @@ global using CRUDBlazorApp.Server.Services;
 using CRUDBlazorApp.Server.Services.AuthenticationService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.Identity.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllersWithViews();
+builder.Services.AddMicrosoftIdentityWebAppAuthentication(builder.Configuration);
 builder.Services.AddRazorPages();
 
 var dbHost = Environment.GetEnvironmentVariable("DB_HOST");

@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.App/containerApps/crudblazorappserver-app-20230921/providers/Microsoft.ServiceLinker/linkers/KestrelCertificatesDevelopmentPassword_D614540438",
+      "secretStore": "AzureContainerApp",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/crudblazorappserverdbserver/databases/CRUDBlazorApp.Server_db",
+      "type": "mssql.azure",
+      "connectionId": "Kestrel:Certificates:Development:Password",
+      "dynamicId": null
+    }
+  }
+}
