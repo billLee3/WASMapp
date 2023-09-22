@@ -47,3 +47,4 @@ C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\bin\Debug\CRUDBlazorApp.Shar
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\billl\OneDrive\Documents\WGU\CRUDBlazorApp\bin\Debug\blazor_wasm_cert.pfx
